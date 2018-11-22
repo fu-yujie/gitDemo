@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "pre-commit husky",
   "main": "test.js",
-  "scripts": {
-    
-  },
+  "scripts": {},
   "husky": {
     "hooks": {
       "pre-commit": "standard \"src/**/*.{js, vue, wpy}\" | snazzy"
